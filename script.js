@@ -34,7 +34,7 @@ function setNextEnabled(enabled) {
 
 function typeText(element, text, done) {
   let i = 0;
-  const speed = 35; // baja = más rápido, sube = más lento
+  const speed = 42; // baja = más rápido, sube = más lento
 
   clearInterval(typingTimer);
   typingTimer = setInterval(() => {
