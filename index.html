@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7b1e1e" />
+  <title>Para ti ❤️</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Fondos decorativos -->
+  <div class="bokeh" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- Pantalla inicial -->
+  <section class="intro" id="intro" aria-labelledby="introTitle">
+    <h1 id="introTitle">Feliz Navidad</h1>
+    <p class="subtitle">Una carta con todo mi cariño</p>
+
+    <button id="openLetter" class="seal" aria-label="Abrir carta">
+      <span class="seal__heart" aria-hidden="true">❤</span>
+      <span class="seal__text">Abrir carta</span>
+    </button>
+
+  </section>
+
+  <!-- Carta -->
+  <section class="letter hidden" id="letter" aria-labelledby="letterTitle">
+    <div class="paper" role="article">
+      <h2 id="letterTitle">Para el amor de mi vida</h2>
+      <div class="divider" aria-hidden="true">❦</div>
+
+      <p class="page typewriter">Se que acordamos que no íbamos a darnos regalos esta Navidad,
+        pero al ser nuestra primera Navidad juntos, no quería dejar pasar la oportunidad de
+        crearte algo especial. Este año quería escribirte una carta, pero la idea se me perdió cuando
+        me di cuenta de que no nos veríamos ni en Navidad ni en Año Nuevo. Y pensando en eso, se me ocurrió que
+        podría hacerte una carta digital. Sé que no es lo mismo y sé que no tiene el mismo valor, pero al no poder
+        dártela en mano, y siendo yo un friki informático, pensé que esto podría ser un buen detalle. Y quería darme
+        prisa, ya que quiero ser el primero que te regala una “carta” jajajaja antes de que llegue otro.
+
+      </p>
+      <p class="page typewriter">
+        Quiero que sepas que eres la persona más especial que he conocido, y que cada día a tu lado no es solo un regalo,
+        sino una bendición. Gracias por ser esa persona en la que siempre puedo apoyarme, ser siempre ese pilar en el que puedo
+        coger un respiro, ser esa persona que me hace reír cuando más lo necesito. Gracias por ser tú.
+      </p>
+      <p class="page typewriter">
+        Cada día que me levanto agradezco tanto haber ido ese día a la Daddy, agradezco tanto que me hablaras una segunda vez,
+        que te fijaras en mí, que hablaras conmigo. No puedo estar más agradecido de haberte conocido. Eres lo mejor que me ha pasado
+        y no solo eso, sino que sé que eres lo mejor que me pasará.
+
+      </p>
+      <p class="page typewriter">
+        Este año ha sido el año más feliz de mi vida y todo ha sido gracias a ti. Pero sé que el siguiente año no solo será igual de feliz,
+        sino que será mucho mejor, porque todo lo que nos propongamos lo conseguiremos juntos, y sé que a tu lado todo es posible.
+        Te prometo que este año que viene lucharé por hacerte feliz cada día, por ser mejor persona, por ser mejor pareja, por ser el hombre que te mereces.
+        Te prometo que lucharé por nosotros, por nuestro amor, por nuestro futuro juntos.
+      </p>
+      <p class="page typewriter">
+        Te amo, Lucía, y siempre lo haré. Me faltan palabras para poder expresar lo que siento por ti.
+        Gracias por ser mi novia, gracias por ser mi amiga, gracias por ser mi todo.
+        Feliz Navidad, mi amor. Con cariño, Franco
+      </p>
+    </div>
+    <div class="pager">
+    <button id="nextPage" class="navArrow" aria-label="Siguiente" type="button">→</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
